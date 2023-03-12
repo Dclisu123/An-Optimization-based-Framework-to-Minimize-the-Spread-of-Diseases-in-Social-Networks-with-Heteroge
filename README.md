@@ -5,10 +5,10 @@ This repository contains the source code for the paper "An Optimization-based Fr
 
 ## Installation
 1. Clone the repository.
-2. Install the required dependencies using `pip`:
-pip install numpy
-pip install networkx
-pip install EoN
+2. Install the required dependencies using `pip`:\
+pip install numpy\
+pip install networkx\
+pip install EoN\
 
 
 ## Usage
