@@ -1,7 +1,7 @@
 # An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes
 
 ## Overview
-This repository contains the source code for the paper "An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes". The paper proposes an optimization-based framework to minimize the spread of diseases in social networks with heterogeneous nodes, which can be applied to a variety of scenarios.
+This repository contains the source code for the paper "An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes". 
 
 ## Installation
 1. Clone the repository.
