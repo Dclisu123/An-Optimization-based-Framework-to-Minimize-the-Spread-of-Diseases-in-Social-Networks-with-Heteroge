@@ -1,56 +1,94 @@
+
 # An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes
 
-## Overview
-This repository contains the source code for the paper "An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes". 
-The files are including both .py field (python) and .m file (Matlab). 
+This repository contains the source code for the paper "An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes". The files include both .py files (Python) and .m files (Matlab).
 
 ## Installation
-1. Clone the repository.
-2. Install the required dependencies using `pip`:\
-pip install numpy\
-pip install networkx\
-pip install EoN\
-pip install matplotlib\
-pip install scipy\
-pip install pandas
+
+1.  Clone the repository.
+2.  Install the required dependencies using `pip`:
 
 
+
+`pip install numpy networkx EoN matplotlib scipy pandas` 
 
 ## Usage
-1. Figure 1 in the paper:\
-python draw_graph_structure.py\
-It shows a simple graph for network strcuture
 
-2. Figure 2 in the paper:\
-python Performance_evaluate.py --g arg
---g is the argument for network streucutre, 0 for complete, 1 for uniform random, 2 for caveman, 3 for windmill
+### Figure 1 in the paper
 
-3. Figure 3 in the paper:\
-python simulation_topology.py --g arg1 --r0 arg 2 
---g is the argument for network streucutre, 0 for complete, 1 for uniform random, 2 for caveman, 3 for windmill
---r0 is the argument for R0 values, 0 for 3.8, 1 for 5.7, 2 for 8.9
+To display a simple graph for the network structure, run:
 
-4. Table 3 in the appendix:\
-python Max_kcut_table.py --g arg1 --M arg 2
---g is the argument for network streucutre, 0 for complete, 1 for uniform random, 2 for caveman, 3 for windmill
---M is the maximuam allowable social groups. In the paper we choose M = 2,5,10.
 
-5.Figure 1 in the appendix:\
-python simulation_topology_robust.py --g arg1 --p arg 2
---g is the argument for network streucutre, 0 for complete, 1 for uniform random, 2 for caveman, 3 for windmill
---p is the failure rate, 0 for 0.1, 1 for 0.2, 2 for 0.3
+`python draw_graph_structure.py` 
 
-6.Figure 3,4 in the appendix:
-'test_ppe.m' under code/Matlab
+### Figure 2 in the paper
+
+To evaluate the performance, run:
+
+
+`python Performance_evaluate.py --g arg` 
+
+Here, `arg` is the argument for the network structure, where:
+
+-   `0` is for complete,
+-   `1` is for uniform random,
+-   `2` is for caveman, and
+-   `3` is for windmill.
+
+### Figure 3 in the paper
+
+To simulate the topology, run:
+
+
+`python simulation_topology.py --g arg1 --r0 arg2` 
+
+Here, `arg1` is the argument for the network structure and `arg2` is the argument for R0 values, where:
+
+-   `0` is for complete,
+-   `1` is for uniform random,
+-   `2` is for caveman, and
+-   `3` is for windmill.
+
+For `arg2`, `0` is for 3.8, `1` is for 5.7, and `2` is for 8.9.
+
+### Table 3 in the appendix
+
+To generate Table 3 in the appendix, run:
+
+
+`python Max_kcut_table.py --g arg1 --M arg2` 
+
+Here, `arg1` is the argument for the network structure and `arg2` is the maximum allowable social groups. In the paper, `M` is set to `2`, `5`, and `10`.
+
+### Figure 1 in the appendix
+
+To simulate the topology robustness, run:
+
+
+`python simulation_topology_robust.py --g arg1 --p arg2` 
+
+Here, `arg1` is the argument for the network structure and `arg2` is the failure rate, where:
+
+-   `0` is for 0.1,
+-   `1` is for 0.2, and
+-   `2` is for 0.3.
+
+### Figures 3 and 4 in the appendix
+
+To generate Figures 3 and 4 in the appendix, run the `test_ppe.m` file under `code/Matlab`.
 
 ## Contributing
+
 Contributions to the project are welcome. To contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ## Contact
-If you have any questions or issues, please feel free to contact us at dclisu@tamu.edu.
+
+If you have any questions or issues, please feel free to contact us at [dclisu@tamu.edu](mailto:dclisu@tamu.edu).
 
 ## Acknowledgments
-We would like to thank Dr.Hrayer Aprahamian for their help and support in this project.
+
+We would like to thank Dr. Hrayer Aprahamian for their help and support in this project.
