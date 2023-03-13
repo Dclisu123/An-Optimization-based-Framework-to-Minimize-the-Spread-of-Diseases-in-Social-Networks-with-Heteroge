@@ -19,14 +19,14 @@ This repository contains the source code for the paper "An Optimization-based Fr
 To display a simple graph for the network structure, run:
 
 
-`python draw_graph_structure.py` 
+`python Code/draw_graph_structure.py` 
 
 ### Figure 2 in the paper
 
 To evaluate the performance, run:
 
 
-`python Performance_evaluate.py --g arg` 
+`python Code/Performance_evaluate.py --g arg` 
 
 Here, `arg` is the argument for the network structure, where:
 
@@ -40,7 +40,7 @@ Here, `arg` is the argument for the network structure, where:
 To simulate the topology, run:
 
 
-`python simulation_topology.py --g arg1 --r0 arg2` 
+`python Code/simulation_topology.py --g arg1 --r0 arg2` 
 
 Here, `arg1` is the argument for the network structure and `arg2` is the argument for R0 values, where:
 
@@ -56,7 +56,7 @@ For `arg2`, `0` is for 3.8, `1` is for 5.7, and `2` is for 8.9.
 To generate Table 3 in the appendix, run:
 
 
-`python Max_kcut_table.py --g arg1 --M arg2` 
+`python Code/Max_kcut_table.py --g arg1 --M arg2` 
 
 Here, `arg1` is the argument for the network structure and `arg2` is the maximum allowable social groups. In the paper, `M` is set to `2`, `5`, and `10`.
 
@@ -65,7 +65,7 @@ Here, `arg1` is the argument for the network structure and `arg2` is the maximum
 To simulate the topology robustness, run:
 
 
-`python simulation_topology_robust.py --g arg1 --p arg2` 
+`python Code/simulation_topology_robust.py --g arg1 --p arg2` 
 
 Here, `arg1` is the argument for the network structure and `arg2` is the failure rate, where:
 
