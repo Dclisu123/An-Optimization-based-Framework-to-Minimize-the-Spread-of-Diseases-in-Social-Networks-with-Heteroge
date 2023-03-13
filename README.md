@@ -2,6 +2,7 @@
 
 ## Overview
 This repository contains the source code for the paper "An Optimization-based Framework to Minimize the Spread of Diseases in Social Networks with Heterogeneous Nodes". 
+The files are including both .py field (python) and .m file (Matlab). 
 
 ## Installation
 1. Clone the repository.
@@ -9,10 +10,10 @@ This repository contains the source code for the paper "An Optimization-based Fr
 pip install numpy\
 pip install networkx\
 pip install EoN\
-
+pip install matplotlib
 
 ## Usage
-To run the code, navigate to the cloned repository and run `python main.py`. You can modify the input parameters in `config.yaml` to adjust the behavior of the algorithm.
+1.
 
 ## Contributing
 Contributions to the project are welcome. To contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
